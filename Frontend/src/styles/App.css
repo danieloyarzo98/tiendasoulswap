@@ -1,0 +1,13 @@
+/* Eliminar margen y relleno predeterminados */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    min-height: 100%;
+}

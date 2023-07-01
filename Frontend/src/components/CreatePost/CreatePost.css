@@ -1,0 +1,46 @@
+.create-post-container {
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+}
+
+.create-post-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.create-post-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post-container label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.create-post-container input[type="text"],
+.create-post-container textarea,
+.create-post-container input[type="number"],
+.create-post-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.create-post-container button[type="submit"] {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-post-container button[type="submit"]:hover {
+    background-color: #00a5ff;
+}

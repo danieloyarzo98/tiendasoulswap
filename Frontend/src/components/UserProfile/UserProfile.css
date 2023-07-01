@@ -1,0 +1,76 @@
+.user-container {
+  display: flex;
+}
+
+.user-profile {
+  background-color: #212121;
+  padding: 20px;
+  flex: 1;
+}
+
+.user-profile section {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.user-profile h2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.user-profile h1 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.user-profile div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #363636;
+  padding: 10px;
+}
+
+.user-profile p {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.user-profile input {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.user-profile button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.user-profile button:hover {
+  background-color: #45a049;
+}
+
+.user-sections {
+  background-color: #212121;
+  padding: 20px;
+  flex: 1;
+  color: #fff;
+}
+
+.publicaciones {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.favoritos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
